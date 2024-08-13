@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "FaceViewer",
+    "version": "1.0.0",
+    "description": "Facebook profile picture viewer",
+    "author": "TechWhizKid",
+    "homepage_url": "https://github.com/TechWhizKid/FaceViewer",
+    "offline_enabled": false,
+    "icons": {
+        "32": "icons/32.png",
+        "64": "icons/64.png",
+        "128": "icons/128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/32.png",
+        "default_title": "View full size profile picture"
+    },
+    "background": {
+        "service_worker": "facegrabber.js"
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "scripting",
+        "webRequest"
+    ],
+    "host_permissions": [
+        "https://*.facebook.com/*",
+        "https://www.messenger.com/t/*"
+    ]
+}
