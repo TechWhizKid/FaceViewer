@@ -11,7 +11,7 @@ Chrome extension to bypass the Facebook profile picture guard and see user's pro
 3. Navigate to **chrome://extensions/**.
 4. Ensure the checkbox labeled **Developer mode** is enabled.
 5. Click the button labeled **Load unpacked extension**.
-6. Select the "FaceViewer-master" folder.
+6. Select the "FaceViewer-main" folder.
 
 ### How To Use
 
