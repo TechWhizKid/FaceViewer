@@ -7,7 +7,7 @@ Chrome extension to bypass the Facebook profile picture guard and see user's pro
 ### Installation Instructions:
 
 1. Download this repository by Clicking [here](https://github.com/TechWhizKid/FaceViewer/archive/refs/heads/master.zip)
-2. Unzip the file and you should have a folder named `FaceViewer-master`.
+2. Unzip the file and you should have a folder named `FaceViewer-main`.
 3. Navigate to **chrome://extensions/**.
 4. Ensure the checkbox labeled **Developer mode** is enabled.
 5. Click the button labeled **Load unpacked extension**.
